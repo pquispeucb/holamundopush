@@ -2,7 +2,7 @@
 
 
 
-if (isset($_POST['android'])) {
+if (isset($_POST['registeredId'])) {
 
 	$services_json = json_decode(getenv("VCAP_SERVICES"),true);
 	$mysql_config = $services_json["mysql-5.1"][0]["credentials"];
