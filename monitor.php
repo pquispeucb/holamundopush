@@ -13,7 +13,7 @@ if (isset($_POST['registeredId'])) {
 	$db = $mysql_config["name"];
 
 
-	$id = $_POST['android'];
+	$id = $_POST['registeredId'];
 	
 	$conexion=mysql_connect($hostname,$username,$password) 
 	  or die("Problemas en la conexion");
