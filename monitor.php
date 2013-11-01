@@ -23,7 +23,7 @@ if (isset($_POST['registeredId'])) {
 	   $conexion) or die("Problemas en el select".mysql_error());
 	mysql_close($conexion);
 	
-	echo "Dispositivo registrado";
+	echo "Dispositivo registrado en la nube";
 }
 
 
